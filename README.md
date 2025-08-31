@@ -52,5 +52,5 @@ The following measures and solutions can be applied to decrease the average abse
 * **Non-Smoking and Non-Drinking campaigns** can be encouraged with the introduction of the **healthy bonus program** to facilitate the **wellbeing and incentives of the employees**.
 * Most of the employees who are **middle-aged and young-aged especially around the age of 28 and 33** can be made to **take part in important projects and meetings mandatorily**.
 * Months of **March and July, especially on Mondays** can be chosen to **conduct mandatory project meetings or even host some recreational events in the workplace to boost employee morale and incentives**.
-* **A new medical department** can be opened in the workplace to **provide free medical consultation to the employees if required**.
+* **A new medical department** can be opened in the workplace to **provide free medical consultation to the employees as and when required**.
 
