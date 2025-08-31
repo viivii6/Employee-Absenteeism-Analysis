@@ -48,9 +48,9 @@ From the analysis, several key insights were derived:
   * Based on employee count, **a ₹10 crore budget can provide significant annual incentives for non-smoking employees**.
 ## **6. Solutions**
 The following measures and solutions can be applied to decrease the average absenteeism in the upcoming year:-
-* **Refreshments and better air conditioning can be provided in the workplace during Summer Seasons along with pickup facilities on certain days especially on Mondays can be provided during Rainy Seasons**.
-* **Non-Smoking and Non-Drinking campaigns can be encouraged with the introduction of the healthy bonus program to facilitate the wellbeing and incentives of the employees**.
-* **Most of the employees who are middle-aged and young-aged especially around the age of 28 and 33 can be made to take part in important projects and meetings mandatorily**.
-* **Months of March and July, especially on Mondays can be chosen to conduct mandatory project meetings or even host some recreational events in the workplace to boost employee morale and incentives**.
-* **A new medical department can be opened in the workplace to provide free medical consultation to the employees if required**.
+* **Refreshments and better air conditioning** can be provided in the workplace during **Summer Seasons** along with **pickup facilities on certain days especially on Mondays** can be provided during **Rainy Seasons**.
+* **Non-Smoking and Non-Drinking campaigns** can be encouraged with the introduction of the **healthy bonus program** to facilitate the **wellbeing and incentives of the employees**.
+* Most of the employees who are **middle-aged and young-aged especially around the age of 28 and 33** can be made to **take part in important projects and meetings mandatorily**.
+* Months of **March and July, especially on Mondays** can be chosen to **conduct mandatory project meetings or even host some recreational events in the workplace to boost employee morale and incentives**.
+* **A new medical department** can be opened in the workplace to **provide free medical consultation to the employees if required**.
 
