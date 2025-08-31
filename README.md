@@ -1,4 +1,4 @@
-# Employee Absenteeism Data Analysis for Driving Employee Incentives and Wellness
+# 🧑🏻‍💻Employee Absenteeism Data Analysis for Driving Employee Incentives and Wellness
 ## 1. Project Overview
 This project focuses on analyzing employee data along with their absenteeism data to design strategies for a **healthy bonus program** and drive **employee incentives towards their jobs**. The primary objective is to identify employees who are living a healthier lifestyle, understand absenteeism patterns, and provide actionable insights for HR to **boost productivity, reward performance, and promote well-being**.
 The analysis leverages data from 3 tables containing **employee absenteeism data, reasons of absense data and compensation details** respectively to find out the employees qualified for the program,  an annual wage increase for non-smokers and a simple dashboard for HR to understand the absenteeism trends at work.
@@ -9,10 +9,10 @@ The purpose of this project is to:
 * **Analyze Absenteeism Trends**: Determine seasonal patterns, reasons of absence, among others with a simple Power BI dashboard.
 * **Promote Workplace Incentives and Wellness**: Provide data-driven recommendations for reducing absenteeism and improving work-life balance.
 ## **3. Tech Stack**
-* **SQL (SQL Server)** – For data extraction, transformation, and analysis.
-* **Data Categorization** - Categorization of the absenteeism data based on seasons and employee data based on health status and age categories.
-* **Data Visualization (Power BI)** – For building a simple interactive dashboard to visualize absenteeism trends according to different metrics.
-* **File Format** – .csv for the raw data, .sql for development, .sql for data validation and .pbix for the dashboard.
+* **🛢️SQL (SQL Server)** – For data extraction, transformation, and analysis.
+* **🗃️Data Categorization** - Categorization of the absenteeism data based on seasons and employee data based on health status and age categories.
+* **📊Data Visualization (Power BI)** – For building a simple interactive dashboard to visualize absenteeism trends according to different metrics.
+* **📁File Format** – .csv for the raw data, .sql for development, .sql for data validation and .pbix for the dashboard.
 ## **4. Key Features**
 * **Joins and Data Blending:**
   * Combined multiple tables (`Absenteeism_at_work`, `Compensation`, `Reasons`) using Joins for holistic analysis.
