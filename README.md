@@ -1,4 +1,4 @@
-# Employee Data Analysis for Driving Employee Incentives and Wellness
+# Employee Absenteeism Data Analysis for Driving Employee Incentives and Wellness
 ## 1. Project Overview
 This project focuses on analyzing employee data along with their absenteeism data to design strategies for a **healthy bonus program** and drive **employee incentives towards their jobs**. The primary objective is to identify employees who are living a healthier lifestyle, understand absenteeism patterns, and provide actionable insights for HR to **boost productivity, reward performance, and promote well-being**.
 The analysis leverages data from 3 tables containing **employee absenteeism data, reasons of absense data and compensation details** respectively to find out the employees qualified for the program,  an annual wage increase for non-smokers and a simple dashboard for HR to understand the absenteeism trends at work.
@@ -14,81 +14,43 @@ The purpose of this project is to:
 * **Power BI** – For building a simple interactive dashboard to visualize absenteeism trends according to different metrics.
 * **File Format** – .csv for the raw data, .sql for development, .sql for data validation and .pbix for the dashboard.
 ## **4. Key Features**
-
-* **Joins and Data Blending**:
-
-  * Combined multiple tables (`Absenteeism_at_work`, `Compensation`, `Reasons`) for holistic analysis.
-* **Health-Based Filtering**:
-
-  * Identify healthiest employees using conditions like:
-
-    * Non-smokers, Non-drinkers
-    * BMI < 25
-    * Below-average absenteeism hours
-* **Compensation Analysis**:
-
-  * Budget planning for incentives (e.g., ₹10,00,00,000 allocation at ₹70/hour per non-smoking employee).
-* **Seasonal Absenteeism Trends**:
-
+* **Joins and Data Blending:**
+  * Combined multiple tables (`Absenteeism_at_work`, `Compensation`, `Reasons`) using Joins for holistic analysis.
+* **Health and Low Absenteeism Based Filtering:**
+  * Identified healthiest employees with low absenteeism using conditions like:
+    * **Non-smokers, Non-drinkers**.
+    * **BMI < 25**.
+    * **Below-average absenteeism hours**.
+* **Annual Compensation Calculation:**
+  * Budget planning for incentives (e.g., **₹10,00,00,000 allocation at ₹70/hour (₹1,45,600/year) per non-smoking employee**).
+* **Seasonal Absenteeism Trends:**
   * Categorization of months into **Summer, Rainy, Autumn, Winter, Spring** for pattern recognition.
-* **BMI and Age Segmentation**:
-
-  * BMI grouped into: Underweight, Healthy, Overweight, Obese.
-  * Age grouped into: Young-Aged, Middle-Aged, Old-Aged.
-* **Power BI Dashboard**:
-
-  * Visual representation of absenteeism rates, reasons, seasons, and health stats.
-
----
-
+* **BMI and Age Segmentation of Employees:**
+  * Employees grouped into (according to BMI): **Underweight, Healthy, Overweight, Obese**.
+  * Employees grouped into (according to Age): **Young-Aged, Middle-Aged, Old-Aged**.
+* **Power BI Dashboard:**
+  * Visual representation of **absenteeism rates by months and days of the week**, **count of all the reason of absence along with filteration provided by a seasons slicer and pie charts of categorized age group and BMI** among others.
 ## **5. Insights and Solutions**
-
 From the analysis, several key insights were derived:
-
-* **Top Performers for Incentives**:
-
-  * Employees who are non-smokers, non-drinkers, with healthy BMI and low absenteeism.
-* **Wellness Strategies**:
-
-  * Programs for overweight and obese employees to reduce health-related absenteeism.
-* **Seasonal Impact**:
-
-  * Higher absenteeism during **Winter and Rainy seasons** due to health issues or weather conditions.
+* **The Average Absenteeism Hours**:
+  * The main KPI is the average absenteeism time in hours of all the employee work force which was found to be **6.92 hours**.
+* **Season With The Maximum Absenteeism**:
+  * The season slicer shows us that the average absenteeism hours is the **most during Summer and Rainy Seasons** with values of **7.56 hours and 7.55 hours** respectively .
 * **Lifestyle Influence**:
-
-  * Smokers and drinkers show higher absenteeism; incentivizing healthy habits can improve attendance.
+  * **Smokers and drinkers show higher absenteeism**; incentivizing healthy habits can improve attendance.
+* **Age Category With The Maximun Absenteeism**:
+  * **Middle-Aged Employees** along with a certain range of **Young-Aged Employees** like **33 and 28 Year-olds** respectively were found to be the one with the **maximum absence in hours**.
+* **Month and Day With The Maximum Absenteeism**:
+  * The months of **March and July** and the day of **Monday** saw **maximum number of absence**. As weekend approches, the number of absence is found to be decreasing.
+* **Maximum Reason Of Absense**:
+  * **Medical Consultation** was found to be the **maximum reason** why employees tend to take leaves.
 * **Budget Utilization**:
+  * Based on employee count, **a ₹10 crore budget can provide significant annual incentives for non-smoking employees**.
 
-  * Based on employee count, a ₹10 crore budget can provide significant annual incentives for non-smoking employees.
-
----
-
-### **SQL Snippets Used**
-
-```sql
--- Join all relevant tables
-SELECT * FROM Absenteeism_at_work a
-LEFT JOIN compensation c ON a.ID = c.ID
-LEFT JOIN Reasons r ON a.Reason_for_absence = r.Number;
-
--- Identify healthiest employees
-SELECT * FROM Absenteeism_at_work
-WHERE Social_drinker = 0 AND Social_smoker = 0 
-AND Body_mass_index < 25
-AND Absenteeism_time_in_hours < (
-    SELECT AVG(Absenteeism_time_in_hours) FROM Absenteeism_at_work
-);
-
--- Budget allocation for non-smokers
-SELECT COUNT(*) AS non_smokers FROM Absenteeism_at_work
-WHERE Social_smoker = 0;
-```
-
----
-
-✅ **Bonus:** The Power BI dashboard provides a **visual story** of employee health vs absenteeism and highlights key trends for decision-making.
-
----
-
-Do you want me to **also include screenshots of the Power BI dashboard sections with their descriptions in the README** (like absenteeism by season, BMI category analysis, incentive distribution), or should I keep it text-based only?
+The following measures and solutions can be applied to decrease the average absenteeism in the upcoming year:-
+* **Refreshments and better air conditioning can be provided in the workplace during Summer Seasons along with pickup facilities on certain days especially on Mondays can be provided during Rainy Seasons**.
+* **Non-Smoking and Non-Drinking campaigns can be encouraged with the introduction of the healthy bonus program to facilitate the wellbeing and incentives of the employees**.
+* **Most of the employees who are middle-aged and young-aged especially around the age of 28 and 33 can be made to take part in important projects and meetings mandatorily**.
+* **Months of March and July, especially on Mondays can be chosen to conduct mandatory project meetings or even host some recreational events in the workplace to boost employee morale and incentives**.
+* **A new medical department can be opened in the workplace to provide free medical consultation to the employees if required**.
 
