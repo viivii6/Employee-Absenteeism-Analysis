@@ -9,9 +9,9 @@ The purpose of this project is to:
 * **Analyze Absenteeism Trends**: Determine seasonal patterns, reasons of absence, among others with a simple Power BI dashboard.
 * **Promote Workplace Incentives and Wellness**: Provide data-driven recommendations for reducing absenteeism and improving work-life balance.
 ## **3. Tech Stack**
-* **SQL(SQL Server)** – For data extraction, transformation, and analysis.
+* **SQL (SQL Server)** – For data extraction, transformation, and analysis.
 * **Data Categorization** - Categorization of the absenteeism data based on seasons and employee data based on health status and age categories.
-* **Power BI** – For building a simple interactive dashboard to visualize absenteeism trends according to different metrics.
+* **Data Visualization (Power BI)** – For building a simple interactive dashboard to visualize absenteeism trends according to different metrics.
 * **File Format** – .csv for the raw data, .sql for development, .sql for data validation and .pbix for the dashboard.
 ## **4. Key Features**
 * **Joins and Data Blending:**
@@ -30,7 +30,7 @@ The purpose of this project is to:
   * Employees grouped into (according to Age): **Young-Aged, Middle-Aged, Old-Aged**.
 * **Power BI Dashboard:**
   * Visual representation of **absenteeism rates by months and days of the week**, **count of all the reason of absence along with filteration provided by a seasons slicer and pie charts of categorized age group and BMI** among others.
-## **5. Insights and Solutions**
+## **5. Insights**
 From the analysis, several key insights were derived:
 * **The Average Absenteeism Hours**:
   * The main KPI is the average absenteeism time in hours of all the employee work force which was found to be **6.92 hours**.
@@ -46,7 +46,7 @@ From the analysis, several key insights were derived:
   * **Medical Consultation** was found to be the **maximum reason** why employees tend to take leaves.
 * **Budget Utilization**:
   * Based on employee count, **a ₹10 crore budget can provide significant annual incentives for non-smoking employees**.
-
+## **6. Solutions**
 The following measures and solutions can be applied to decrease the average absenteeism in the upcoming year:-
 * **Refreshments and better air conditioning can be provided in the workplace during Summer Seasons along with pickup facilities on certain days especially on Mondays can be provided during Rainy Seasons**.
 * **Non-Smoking and Non-Drinking campaigns can be encouraged with the introduction of the healthy bonus program to facilitate the wellbeing and incentives of the employees**.
